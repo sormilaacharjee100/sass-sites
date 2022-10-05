@@ -1,0 +1,48 @@
+
+
+.contact_area{
+    background: $bg_gray;
+}
+
+.single_address {
+    float: left;width: 400px;
+    i {font-size: 40px;}
+
+    h4 {text-transform: uppercase;font-size: 22px;margin-top: 20px;}
+
+    span {display: block;font-size: 20px;font-weight: normal;margin-top: 10px;text-transform: lowercase;}
+}
+
+
+.contact_bottom {
+    margin-top: 50px;
+    .contact_form {
+        float: left;
+        width: 700px;
+        margin-right: 50px;}
+        input, textarea{
+            width: 100%;border: 1px solid $border_gray;padding: 10px;margin-bottom: 10px;
+   
+        }
+
+        input[type="submit"] {background-color: $primary_color;
+            padding: 10px 40px;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 400;
+            color: $white;
+            border: 0;
+            width: auto;
+            cursor: pointer;
+            transition: .3s;
+            &:hover{
+                background-color: $black;
+            }
+        }
+        .contact_map {
+            float: right;width: 445px;
+            iframe {width: 100%;border: 1px solid $border_gray;padding: 3px;height: 256px;}
+
+        }
+
+}
